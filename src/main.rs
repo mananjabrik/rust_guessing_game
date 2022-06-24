@@ -36,3 +36,6 @@ fn main() {
         }
     }
 }
+// mutable is used to change the value of variable
+// immutable is used to read the value of variable
+// by default, all variable in rust is immutable
