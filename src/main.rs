@@ -2,7 +2,7 @@
 use rand::Rng;
 // use library standart std = standard, library cmp = compare, Oradering = Ordering
 use std::cmp::Ordering;
-//user librari io = input output, to print to screen
+//use librari io = input output, to print to screen
 use std::io;
 fn main() {
     // print on screen 
