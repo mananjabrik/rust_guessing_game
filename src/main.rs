@@ -1,6 +1,7 @@
 // mod guessing_game;
 // mod learn_rush;
 mod vars;
+// mod type;
 
 fn main() {
     // learn_rush::test();
