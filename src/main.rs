@@ -1,4 +1,5 @@
-mod learn_rush;
+// mod learn_rush;
+mod vars;
 
 //use library called rand to generate random number
 // use rand::Rng;
@@ -38,7 +39,7 @@ fn main() {
     //     }
     // }
 
-    learn_rush::test();
+    vars::run();
 }
 // mutable is used to change the value of variable
 // immutable is used to read the value of variable
