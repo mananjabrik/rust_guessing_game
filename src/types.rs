@@ -17,21 +17,28 @@ Vectors: growable and mutable.
 // Rust is a statically typed language, so we can't use variable before we assign it with correct type.
 
 pub fn run() {
-    // by default is "i32"
-    let x = 5;
-    // by default is "f64"
+    //Default is "i32"
+    let x = 1;
+
+    //Default is "f64"
     let y = 2.5;
-    // by default is "bool"
-    let z = true;
-    // by default is "char"
-    let c = 'a';
-    // by default is "String"
-    let name = String::from("Manan");
-    // by default is "Tuple"
-    let (my_name, my_age) = ("Manan", 25);
-    // by default is "Array"
-    let arr = [1, 2, 3, 4, 5];
-    // by default is "Vector"
-    let vec = vec![1, 2, 3, 4, 5];
-    println!("{}", x);
+
+    // Add explicit type
+    let z: i64 = 45378789787;
+
+    // Find max size of type
+    println!("Max i32: {}", std::i32::MAX);
+    println!("Max i64: {}", std::i64::MAX);
+
+    // Boolean
+    let is_active: bool = true;
+
+    // Get boolean from expression
+    let is_greater: bool = 10 < 5;
+
+    // Character
+    let a: char = 'a';
+    let face = '\u{1F600}';
+
+    println!("{:?}", (x, y, z, is_active, is_greater, a, face));
 }
