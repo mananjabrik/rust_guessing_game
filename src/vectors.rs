@@ -36,4 +36,20 @@ pub fn run() {
         *x *= 2;
     }
     println!("{:?}", arr);
+
+    // filter vector min and max number on array
+    let mut max: i32 = 0;
+    let mut min: i32 = 0;
+    let mut sum: i32 = 0;
+    for (index, x) in arr.iter().enumerate() {
+        sum += *x;
+        if *x > max {
+            max = *x;
+        }
+        // min mustbe greater than 0
+        if index == 0 || *x < min {
+            min = *x;
+        }
+    }
+    println!("max: {}, min: {}, sum {}", max, min, sum);
 }
