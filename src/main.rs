@@ -8,7 +8,9 @@
 // mod vectors;
 // mod conditionals;
 // mod loops;
-mod functions;
+// mod functions;
+mod pointer_ref;
+
 fn main() {
     // learn_rush::test();
     // guessing_game::run();
@@ -19,7 +21,8 @@ fn main() {
     // vectors::run();
     // conditionals::run();
     // loops::run();
-    functions::run();
+    // functions::run();
+    pointer_ref::run();
 }
 // mutable is used to change the value of variable
 // immutable is used to read the value of variable
