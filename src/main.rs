@@ -5,7 +5,8 @@
 // mod strings;
 // mod tuples;
 // mod arrays;
-mod vectors;
+// mod vectors;
+mod conditionals;
 
 fn main() {
     // learn_rush::test();
@@ -14,7 +15,8 @@ fn main() {
     // strings::run();
     // tuples::run();
     // arrays::run();
-    vectors::run();
+    // vectors::run();
+    conditionals::run();
 }
 // mutable is used to change the value of variable
 // immutable is used to read the value of variable
