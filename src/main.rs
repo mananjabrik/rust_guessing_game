@@ -7,8 +7,8 @@
 // mod arrays;
 // mod vectors;
 // mod conditionals;
-mod loops;
-
+// mod loops;
+mod functions;
 fn main() {
     // learn_rush::test();
     // guessing_game::run();
@@ -18,7 +18,8 @@ fn main() {
     // arrays::run();
     // vectors::run();
     // conditionals::run();
-    loops::run();
+    // loops::run();
+    functions::run();
 }
 // mutable is used to change the value of variable
 // immutable is used to read the value of variable
