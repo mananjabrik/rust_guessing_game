@@ -10,7 +10,8 @@
 // mod loops;
 // mod functions;
 // mod pointer_ref;
-mod structs;
+mod enums;
+// mod structs;
 fn main() {
     // learn_rush::test();
     // guessing_game::run();
@@ -23,7 +24,8 @@ fn main() {
     // loops::run();
     // functions::run();
     // pointer_ref::run();
-    structs::run();
+    // structs::run();
+    enums::run();
 }
 // mutable is used to change the value of variable
 // immutable is used to read the value of variable
